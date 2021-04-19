@@ -8,8 +8,8 @@
 #define hallPin 4
 #define enablePin 5
 
-const char* ssid     = "TP-LINK_6BCD";
-const char* password = "51360306";
+const char* ssid     = "TP-LINK_6BCD"; // name of the wireless network
+const char* password = "51360306"; // password of the wireless network
 String dirString = "0";
 String delayString = "2000";
 String stepdegString = "1";
@@ -24,7 +24,7 @@ WiFiClient client;
 WiFiServer server(80);  // Set web server port number to 80
 
 // NETWORK: Static IP details
-IPAddress ip(192,168,0,183);
+IPAddress ip(192,168,0,183); 
 IPAddress gateway(192,168,0,0);
 IPAddress subnet(255,255,255,0);
 
