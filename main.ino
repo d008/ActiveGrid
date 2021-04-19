@@ -24,7 +24,7 @@ WiFiClient client;
 WiFiServer server(80);  // Set web server port number to 80
 
 // NETWORK: Static IP details
-IPAddress ip(192,168,0,183); 
+IPAddress ip(192,168,0,183);  // this will be unique to each winglet
 IPAddress gateway(192,168,0,0);
 IPAddress subnet(255,255,255,0);
 
