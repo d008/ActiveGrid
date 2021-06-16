@@ -12,3 +12,5 @@ main.ino -- Arduino code to be uploaded onto each winglet's ESP8266
 active_grid.m -- example of complementary Matlab code to drive the winglets
 
 AG_parts_list -- list of parts and estimated budget 
+
+Active Grid Quick Start Guide -- Instructions for running the active grid
